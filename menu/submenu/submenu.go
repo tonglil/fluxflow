@@ -1,15 +1,16 @@
 package submenu
 
-type subMenu string
+// Item represents the nested menu item.
+type Item string
 
 const (
 	// Darkroom preserves night vision.
-	Darkroom subMenu = "Darkroom"
+	Darkroom Item = "Darkroom"
 	// Movie sets movie mode for 2.5 hours.
-	Movie subMenu = "Movie mode"
+	Movie Item = "Movie mode"
 
 	// Hour disables Flux for 1 hour.
-	Hour subMenu = "for an hour"
+	Hour Item = "for an hour"
 	// Sunrise disables Flux until the sunrise.
-	Sunrise subMenu = "until sunrise"
+	Sunrise Item = "until sunrise"
 )

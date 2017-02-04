@@ -1,11 +1,12 @@
 package menu
 
-type menu string
+// Item represents the first level menu.
+type Item string
 
 const (
 	// Color is the menu item to change effects.
-	Color menu = "Color Effects"
+	Color Item = "Color Effects"
 
 	// Disable is the menu item to disable Flux.
-	Disable menu = "Disable"
+	Disable Item = "Disable"
 )
