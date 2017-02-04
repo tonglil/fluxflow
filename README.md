@@ -1,4 +1,4 @@
-# FluxFlow
+# FluxFlow [![Build Status](https://travis-ci.org/tonglil/fluxflow.svg?branch=master)](https://travis-ci.org/tonglil/fluxflow)
 
 A command line tool to adjust [f.lux](https://justgetflux.com/) settings (on OS X).
 
@@ -18,7 +18,7 @@ go get github.com/tonglil/fluxflow
 
 While f.lux is running:
 
-```bash
+```
 $ fluxflow
 A command line tool to adjust f.lux settings
 
