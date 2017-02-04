@@ -31,6 +31,7 @@ Available Commands:
   hour        Disable f.lux for 1 hour
   movie       Set f.lux to movie mode for 2.5 hours
   sunrise     Disable f.lux until sunrise
+  version     Print the version information
 
 Use "fluxflow [command] --help" for more information about a command.
 ```
