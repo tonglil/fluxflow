@@ -39,5 +39,5 @@ Use "fluxflow [command] --help" for more information about a command.
 ## Tab completion
 
 ```bash
-$ source <(fluxflow completion)
+source <(fluxflow completion)
 ```
