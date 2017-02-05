@@ -9,7 +9,7 @@ Get the binary for OS X from the latest [release].
 Or use `go get`:
 
 ```
-go get github.com/tonglil/fluxflow
+go get -u github.com/tonglil/fluxflow
 ```
 
 [release]: https://github.com/tonglil/fluxflow/releases
