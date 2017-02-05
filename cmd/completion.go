@@ -20,7 +20,7 @@ Examples:
 
   $ brew install bash-completion
   $ source $(brew --prefix)/etc/bash_completion
-  $ source <(fluxflow completion bash)`,
+  $ source <(fluxflow completion)`,
 	Run: func(cmd *cobra.Command, args []string) {
 		RootCmd.GenBashCompletion(os.Stdout)
 	},
